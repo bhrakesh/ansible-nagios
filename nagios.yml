@@ -1,0 +1,6 @@
+---
+- name: checking nagios service status
+- hosts: client
+  roles:
+    - nagios
+

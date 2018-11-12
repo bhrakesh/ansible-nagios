@@ -1,0 +1,4 @@
+---
+- name: check nagios service
+  service: name=nagios state=stopped
+
